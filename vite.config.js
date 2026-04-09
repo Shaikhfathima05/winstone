@@ -5,12 +5,19 @@ import { resolve } from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  server: {
+    historyApiFallback: {
+      rewrites: [
+        { from: /^\/admin$/, to: '/admin.html' },
+      ],
+    },
+  },
   build: {
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
         projects: resolve(__dirname, 'projects.html'),
-        dashboard: resolve(__dirname, 'dashboard.html'),
+        admin: resolve(__dirname, 'admin.html'),
         damac: resolve(__dirname, 'damac.html'),
         sobha: resolve(__dirname, 'sobha.html'),
         township: resolve(__dirname, 'township.html'),
