@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winstone Projects - Premium Real Estate UAE</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <div class="brand-logo">
+                    <img src="https://www.winstoneprojects.com/winstonelogo.jpg" alt="Winstone Logo" style="width: 40px; height: auto; border-radius: 8px;">
+                </div>
+                <div class="brand-text">
+                    <h1 class="brand-title">WINSTONE<span class="dot">.</span></h1>
+                    <span class="brand-subtitle">PROJECTS</span>
+                </div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#recognition">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="btn btn-yellow nav-btn">Get Started</button>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION (Video) -->
+    <section class="hero" id="home">
+        <!-- Video Background -->
+        <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="/hero-fallback.jpg">
+            <source src="/hero-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content fade-up">
+            <div class="hero-badge">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F4B815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <span>SINCE 2018 - LUXURY REAL ESTATE DEVELOPMENT</span>
+            </div>
+
+            <h1 class="hero-title">
+                Winstone <br>
+                <span class="text-yellow">Projects</span>
+            </h1>
+
+            <div class="hero-divider">
+                <div class="line"></div>
+                <div class="dot"></div>
+                <div class="line"></div>
+            </div>
+
+            <p class="hero-subtitle">Premium Real Estate Developers in UAE</p>
+            
+            <p class="hero-quote">
+                "Where architectural dreams meet reality, creating spaces<br>that inspire and endure."
+            </p>
+
+            <div class="hero-markets-pill">
+                UAE Market
+            </div>
+
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-yellow">
+                    View Projects 
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    Get in Touch
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. IMPACT SECTION -->
+    <section class="stats-section reveal" id="impact">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h2 class="stat-number stat-val" data-target="6">0</h2><span class="stat-plus">+</span>
+                    <h3 class="stat-title">Years of Excellence</h3>
+                    <p class="stat-desc">Since 2018</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="stat-number stat-val" data-target="45">0</h2><span class="stat-plus">+</span>
+                    <h3 class="stat-title">Projects Completed</h3>
+                    <p class="stat-desc">Across the UAE</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="stat-number stat-val" data-target="3">0</h2>
+                    <h3 class="stat-title">Group Companies</h3>
+                    <p class="stat-desc">Diversified ventures</p>
+                </div>
+                <div class="stat-item">
+                    <h2 class="stat-number stat-val" data-target="1">0</h2>
+                    <h3 class="stat-title">Geography</h3>
+                    <p class="stat-desc">UAE Focus</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. STRATEGIC PARTNERSHIP SECTION -->
+    <section class="partners-section reveal" id="strategic-partnership">
+        <div class="container">
+            <div class="section-badge">STRATEGIC PARTNERSHIPS</div>
+            
+            <h2 class="section-title">
+                Trusted by Industry <span class="text-yellow">Leaders</span>
+            </h2>
+
+            <div class="section-divider">
+                <div class="line"></div>
+                <div class="dot"></div>
+                <div class="line"></div>
+            </div>
+
+            <p class="section-desc text-center">
+                Collaborating with leading companies across the Middle East and beyond, delivering<br>excellence in every partnership
+            </p>
+
+            <div class="partners-marquee">
+                <div class="partners-logos" id="partnersMarquee">
+                    <img src="https://www.winstoneprojects.com/logos/Danube_Properties.png" alt="Danube Properties" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/Ellington-Logo_Black-2.png" alt="Ellington" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/aldar-logo-png_seeklogo-425039.png" alt="Aldar" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/binghatti.webp" alt="Binghatti" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/damac.png" alt="DAMAC" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/emaar.png" alt="Emaar" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/mag.png" alt="MAG" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/meraas.png" alt="Meraas" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/nakheel.png" alt="Nakheel" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/ominyat.png" alt="Ominyat" class="partner-logo-img">
+                    
+                    <!-- Duplicate for infinite scroll loop -->
+                    <img src="https://www.winstoneprojects.com/logos/Danube_Properties.png" alt="Danube Properties" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/Ellington-Logo_Black-2.png" alt="Ellington" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/aldar-logo-png_seeklogo-425039.png" alt="Aldar" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/binghatti.webp" alt="Binghatti" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/damac.png" alt="DAMAC" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/emaar.png" alt="Emaar" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/mag.png" alt="MAG" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/meraas.png" alt="Meraas" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/nakheel.png" alt="Nakheel" class="partner-logo-img">
+                    <img src="https://www.winstoneprojects.com/logos/ominyat.png" alt="Ominyat" class="partner-logo-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. OUR PROJECTS SECTION -->
+    <section class="projects-section-new" id="projects">
+        <div class="container">
+            <div class="text-center mb-50 reveal">
+                <h2 class="section-title">Our <span class="text-yellow">Projects</span></h2>
+                <div class="section-divider">
+                    <div class="line"></div>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                </div>
+                <p class="section-desc mt-30" style="max-width:800px; margin: 0 auto;">
+                    Specialized portfolio of luxury real estate developments across India and UAE, 
+                    focusing on residential, commercial, and leisure properties with premium design-driven architecture.
+                </p>
+            </div>
+
+            <!-- Featured Project -->
+            <div class="featured-project-card reveal">
+                <div class="featured-image">
+                    <div class="featured-pill-abs">Real Estate</div>
+                    <!-- Aerial view placeholder -->
+                    <img src="https://mxvjvwdsxrcwoqlrqjsj.supabase.co/storage/v1/object/public/images/projects/1762603953675-07kded.jpg" alt="DAMAC Islands Aerial">
+                    <button class="featured-play-btn">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M8 5v14l11-7z"/></svg>
+                    </button>
+                </div>
+                <div class="featured-content">
+                    <div class="featured-header">
+                        <div class="f-icon-box">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-yellow)" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line><line x1="12" y1="14" x2="12.01" y2="14"></line><line x1="12" y1="10" x2="12.01" y2="10"></line></svg>
+                        </div>
+                        <span class="f-status">2026 <span class="f-dot"></span> <span style="color:#2ecc71">Active</span></span>
+                    </div>
+                    <h3 class="f-title text-yellow">DAMAC ISLANDS</h3>
+                    <p class="f-desc">A curated portfolio of waterfront townhouses and signature villas by DAMAC, blending resort-grade amenities, sustainable design and smart-home technology across Dubai's most sought-after communities.</p>
+                    <ul class="f-bullets">
+                        <li>Waterfront & prime city locations</li>
+                        <li>Smart, sustainable design</li>
+                        <li>Resort-style amenities</li>
+                        <li>Private beach access</li>
+                        <li>World-class amenities</li>
+                    </ul>
+                    <a href="#" class="btn btn-yellow mt-30 shadow-btn">
+                        View All Projects 
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left:8px"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Slider Dots -->
+            <div class="slider-dots text-center">
+                <span class="s-dot active"></span>
+                <span class="s-dot"></span>
+                <span class="s-dot"></span>
+                <span class="s-dot"></span>
+            </div>
+
+            <!-- Card Grid -->
+            <div class="w-project-grid">
+                <!-- Card 1 -->
+                <div class="w-card reveal">
+                    <div class="w-card-header">
+                        <div class="w-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-yellow)" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect></svg></div>
+                        <img src="https://mxvjvwdsxrcwoqlrqjsj.supabase.co/storage/v1/object/public/images/projects/1762603953675-07kded.jpg" class="w-thumb" alt="DAMAC">
+                    </div>
+                    <h4>DAMAC Islands</h4>
+                    <p>A curated portfolio of waterfront townhouses and signature villas by DAMAC, blending resort-grade amenities, sustainable design and smart-home technology across Dubai's most sought-after communities.</p>
+                    <span class="w-pill">Real Estate</span>
+                </div>
+                <!-- Card 2 -->
+                <div class="w-card reveal delay-1">
+                    <div class="w-card-header">
+                        <div class="w-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-yellow)" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect></svg></div>
+                        <img src="https://mxvjvwdsxrcwoqlrqjsj.supabase.co/storage/v1/object/public/images/projects/1762605464679-rwzdcc.webp" class="w-thumb" alt="Sobha">
+                    </div>
+                    <h4>Sobha Elwood</h4>
+                    <p>Unique farm and lifestyle properties that blend luxury with nature, offering premium country living experiences with modern amenities and thoughtful design.</p>
+                    <span class="w-pill">Real Estate</span>
+                </div>
+                <!-- Card 3 -->
+                <div class="w-card reveal delay-2">
+                    <div class="w-card-header">
+                        <div class="w-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-yellow)" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect></svg></div>
+                        <img src="https://mxvjvwdsxrcwoqlrqjsj.supabase.co/storage/v1/object/public/images/projects/1762605938009-y16mga.jpg" class="w-thumb" alt="Township">
+                    </div>
+                    <h4>Luxury Residential Township</h4>
+                    <p>Comprehensive residential township featuring modern amenities, sustainable planning, and community-focused development with luxury standards.</p>
+                    <span class="w-pill">Real Estate</span>
+                </div>
+                <!-- Card 4 -->
+                <div class="w-card reveal">
+                    <div class="w-card-header">
+                        <div class="w-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-yellow)" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect></svg></div>
+                        <img src="https://mxvjvwdsxrcwoqlrqjsj.supabase.co/storage/v1/object/public/images/projects/1762857830574-bo5a7b.jpg" class="w-thumb" alt="SAIF">
+                    </div>
+                    <h4>SAIF PROJECTS</h4>
+                    <p>A tech expert is someone who applies deep expertise in technology to solve complex problems and guide technical strategy, often bridging the gap between innovation and practical implementation.</p>
+                    <span class="w-pill">Real Estate</span>
+                </div>
+            </div>
+
+            <div class="text-center mt-50 mb-50" style="position:relative;">
+                <div class="section-divider" style="position:absolute; width:100%; top:50%; z-index:-1;">
+                    <div class="line" style="width:40%"></div>
+                    <div class="dot"></div>
+                    <div class="line" style="width:40%"></div>
+                </div>
+                <a href="projects.html" class="btn btn-yellow" style="padding: 16px 40px; font-size:16px;">
+                    View All Projects 
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left:8px"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- 5. ABOUT US SECTION -->
+    <section class="about-section-new" id="about">
+        <div class="container reveal">
+            <div class="text-center mb-50">
+                <div class="section-badge badge-outline">ABOUT US</div>
+                <h2 class="section-title">
+                    The <span class="text-yellow">Winstone Group</span>
+                </h2>
+                <div class="section-divider">
+                    <div class="line"></div>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                </div>
+                <p class="section-desc mt-30 text-center" style="max-width:800px; margin: 0 auto;">
+                    A diversified conglomerate committed to excellence across multiple industries, creating lasting value and meaningful impact in every venture we undertake.
+                </p>
+            </div>
+
+            <div class="about-grid-new mt-50">
+                <div class="about-left">
+                    <h3 class="text-yellow mb-20" style="font-family:var(--font-serif); font-size:26px;">Building Tomorrow's Legacy</h3>
+                    <p class="section-desc mb-20">
+                        Founded in 2018, the Winstone Group has rapidly evolved into a dynamic conglomerate with a clear vision: to redefine excellence across diverse industries while maintaining our core values of innovation, quality, and customer satisfaction.
+                    </p>
+                    <p class="section-desc mb-30">
+                        From premium real estate development to luxury automotive services and community-focused social initiatives, we believe in creating comprehensive value that extends beyond business success to meaningful community impact.
+                    </p>
+                    <h4 style="font-size:18px; margin-bottom:16px;">Our Core Values</h4>
+                    <div class="values-grid">
+                        <div class="value-pill">Innovation & Technology</div>
+                        <div class="value-pill">Quality Excellence</div>
+                        <div class="value-pill">Customer-Centric Approach</div>
+                        <div class="value-pill">Sustainable Development</div>
+                        <div class="value-pill">Global Expansion</div>
+                        <div class="value-pill">Community Impact</div>
+                    </div>
+                </div>
+                
+                <div class="about-right">
+                    <div class="stats-grid-2x2">
+                        <div class="stat-card">
+                            <div class="s-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-yellow)" stroke-width="2"><path d="M12 15l-3 4-3-4"></path><path d="M8 8a4 4 0 118 0c0 1.1-.9 2-2 2H10c-1.1 0-2-.9-2-2z"></path><circle cx="12" cy="8" r="4"></circle><path d="M12 12v7"></path><path d="M16 15l3 4 3-4"></path></svg></div>
+                            <h4 class="s-num">6+</h4>
+                            <p class="s-txt">Years of Excellence</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="s-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-yellow)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg></div>
+                            <h4 class="s-num">50+</h4>
+                            <p class="s-txt">Projects Completed</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="s-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-yellow)" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path></svg></div>
+                            <h4 class="s-num">3</h4>
+                            <p class="s-txt">Group Companies</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="s-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-yellow)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"></path></svg></div>
+                            <h4 class="s-num">2</h4>
+                            <p class="s-txt">Countries</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. OUR COMPANIES SECTION -->
+    <section class="companies-section-new" id="companies">
+        <div class="container reveal">
+            <div class="text-center mb-50">
+                <h2 class="section-title">
+                    Our <span class="text-yellow">Companies</span>
+                </h2>
+                <p class="section-desc text-center mt-20">
+                    Three distinct entities, one unified vision of excellence and innovation
+                </p>
+            </div>
+
+            <div class="comp-card-grid">
+                <!-- Company 1 -->
+                <div class="comp-card">
+                    <div class="comp-img-top">
+                        <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Real Estate">
+                        <div class="comp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-yellow)" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect></svg></div>
+                    </div>
+                    <div class="comp-content">
+                        <div class="comp-pill">REAL ESTATE DEVELOPMENT</div>
+                        <h3>Winstone Projects LLP</h3>
+                        <p>Premium real estate development and township projects</p>
+                    </div>
+                </div>
+                <!-- Company 2 -->
+                <div class="comp-card">
+                    <div class="comp-img-top">
+                        <img src="https://images.unsplash.com/photo-1550355291-bbee04a92027?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Motors">
+                        <div class="comp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-yellow)" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg></div>
+                    </div>
+                    <div class="comp-content">
+                        <div class="comp-pill">AUTOMOTIVE EXCELLENCE</div>
+                        <h3>Winstone Motors</h3>
+                        <p>Luxury automotive dealership and services</p>
+                    </div>
+                </div>
+                <!-- Company 3 -->
+                <div class="comp-card">
+                    <div class="comp-img-top">
+                        <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Foundation">
+                        <div class="comp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-yellow)" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+                    </div>
+                    <div class="comp-content">
+                        <div class="comp-pill">SOCIAL IMPACT</div>
+                        <h3>Winstone Foundation</h3>
+                        <p>Social impact and community development initiatives</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. OUR MISSION SECTION -->
+    <section class="mission-section" id="mission">
+        <div class="container reveal">
+            <div class="mission-box">
+                <h2 class="mission-statement">
+                    "Our mission is to continually elevate the standards of luxury real estate in the UAE by crafting environments that embody perfection, sustainability, and unparalleled design."
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. EXECUTIVE PROFILE SECTION -->
+    <section class="executive-profile-new" id="executive">
+        <div class="container reveal">
+            <div class="text-center mb-50">
+                <div class="section-badge badge-outline">EXECUTIVE PROFILE</div>
+                <h2 class="section-title">
+                    Visionary <span class="text-yellow">Leadership</span>
+                </h2>
+                <div class="section-divider">
+                    <div class="line"></div>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <div class="exec-split-grid">
+                <!-- Left: Image & Quote -->
+                <div class="exec-left">
+                    <div class="exec-titles text-center mb-20">
+                        <h3 class="text-yellow" style="font-family:var(--font-serif); font-size: 28px;">Nayaz Faiyaz Ahmed</h3>
+                        <p class="text-yellow" style="font-weight: 600;">Founder & Chairman</p>
+                    </div>
+                    <div class="exec-img-container">
+                        <img src="https://www.winstoneprojects.com/assets/nayaz_hero-Dal7fLmT.jpg" alt="Nayaz Faiyaz Ahmed" class="img-fluid" style="border-radius: 16px;">
+                        
+                        <div class="exec-quote-box">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="var(--accent-yellow)" style="margin-bottom:12px"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                            <p>"Excellence is not a destination, but a journey of continuous innovation and meaningful impact."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Bio & Qualities -->
+                <div class="exec-right">
+                    <p class="section-desc mb-20">
+                        Born in Bangalore, Nayaz Faiyaz Ahmed made an early decision to pursue real estate despite having a different academic background. Since 2017, he has dedicated himself to mastering all aspects of the real estate business, founding Winstone Projects LLP in 2018.
+                    </p>
+                    <p class="section-desc mb-40">
+                        Through facing competition, fraud, and various challenges, he built remarkable resilience. Today, he manages property development and township projects in Bangalore while successfully expanding into the UAE market, with ambitious plans for global growth in luxury real estate development.
+                    </p>
+                    
+                    <div class="exec-divider mb-30">
+                        <div class="dot" style="width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,0.2);"></div>
+                        <div class="line" style="flex:1;height:1px;background:linear-gradient(90deg, rgba(255,255,255,0.2), transparent);"></div>
+                    </div>
+
+                    <h4 class="text-yellow mb-20" style="font-size: 18px; font-weight: 600;">Core Leadership Qualities</h4>
+                    <div class="values-grid">
+                        <div class="value-pill" style="text-align: left; padding: 12px 16px;">Luxury Real Estate</div>
+                        <div class="value-pill" style="text-align: left; padding: 12px 16px;">Design-Driven Architecture</div>
+                        <div class="value-pill" style="text-align: left; padding: 12px 16px;">Technology Integration</div>
+                        <div class="value-pill" style="text-align: left; padding: 12px 16px;">Premium Development</div>
+                        <div class="value-pill" style="text-align: left; padding: 12px 16px;">Global Expansion</div>
+                        <div class="value-pill" style="text-align: left; padding: 12px 16px;">Award-Winning Projects</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. AWARDS & ACHIEVEMENTS SECTION -->
+    <section class="awards-v2-section" id="recognition">
+        <div class="container awards-v2-inner">
+            <!-- Header -->
+            <div class="awards-header text-center reveal">
+                <div class="section-badge">RECOGNITION</div>
+                <h2 class="section-title">Awards <span style="font-family: var(--font-serif); font-style: italic; color: #fff;">&amp;</span> <span class="text-yellow">Achievements</span></h2>
+                <div class="section-divider mb-50">
+                    <div class="line"></div>
+                    <div class="dot" style="margin: 0;"></div>
+                    <div class="line"></div>
+                </div>
+                <p class="section-desc mt-30" style="max-width: 700px; margin: 20px auto 40px; text-align: center;">
+                    Recognition for exceptional achievements in luxury real estate development, innovative
+                    design, and outstanding contributions to the industry by leading organizations including
+                    NAR India and CREDAI.
+                </p>
+            </div>
+
+            <div class="awards-v2-layout reveal-delay">
+                <!-- Left: Grid of awards -->
+                <div class="awards-v2-grid">
+                    <!-- Card 1 -->
+                    <div class="aw2-card">
+                        <div class="aw2-left">
+                            <div class="aw2-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+                            </div>
+                            <span class="aw2-year">2023</span>
+                        </div>
+                        <div class="aw2-right">
+                            <h4 class="aw2-title">Excellence in Real Estate Development</h4>
+                            <span class="aw2-org">NAR India (National Association of Realtors)</span>
+                            <p class="aw2-desc">Recognition for outstanding achievements in luxury real estate development and innovative architectural solutions.</p>
+                            <div class="aw2-meta">
+                                <span class="aw2-meta-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+                                <span class="aw2-meta-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="aw2-card delay-1">
+                        <div class="aw2-left">
+                            <div class="aw2-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+                            </div>
+                            <span class="aw2-year">2022</span>
+                        </div>
+                        <div class="aw2-right">
+                            <h4 class="aw2-title">Sustainable Development Excellence</h4>
+                            <span class="aw2-org">CREDAI (Confederation of Real Estate Developers' Associations of India)</span>
+                            <p class="aw2-desc">Recognized for implementing eco-friendly practices and sustainable construction methodologies in luxury developments.</p>
+                            <div class="aw2-meta">
+                                <span class="aw2-meta-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+                                <span class="aw2-meta-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="aw2-card delay-2">
+                        <div class="aw2-left">
+                            <div class="aw2-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+                            </div>
+                            <span class="aw2-year">2021</span>
+                        </div>
+                        <div class="aw2-right">
+                            <h4 class="aw2-title">Innovation in Design Excellence</h4>
+                            <span class="aw2-org">Karnataka Real Estate Regulatory Authority</span>
+                            <p class="aw2-desc">Acknowledged for pioneering design-driven architecture and technology-integrated development projects.</p>
+                            <div class="aw2-meta">
+                                <span class="aw2-meta-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+                                <span class="aw2-meta-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="aw2-card">
+                        <div class="aw2-left">
+                            <div class="aw2-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+                            </div>
+                            <span class="aw2-year">2020</span>
+                        </div>
+                        <div class="aw2-right">
+                            <h4 class="aw2-title">Outstanding Project Management</h4>
+                            <span class="aw2-org">NAREDCO (National Real Estate Development Council)</span>
+                            <p class="aw2-desc">Honored for exceptional project execution and timely delivery of large-scale residential and commercial projects.</p>
+                            <div class="aw2-meta">
+                                <span class="aw2-meta-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+                                <span class="aw2-meta-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="aw2-card delay-1">
+                        <div class="aw2-left">
+                            <div class="aw2-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+                            </div>
+                            <span class="aw2-year">2019</span>
+                        </div>
+                        <div class="aw2-right">
+                            <h4 class="aw2-title">Customer Satisfaction Award</h4>
+                            <span class="aw2-org">Indian Real Estate Forum</span>
+                            <p class="aw2-desc">Awarded for maintaining highest standards of customer service and client satisfaction across all projects.</p>
+                            <div class="aw2-meta">
+                                <span class="aw2-meta-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+                                <span class="aw2-meta-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="aw2-card delay-2">
+                        <div class="aw2-left">
+                            <div class="aw2-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg>
+                            </div>
+                            <span class="aw2-year">2018</span>
+                        </div>
+                        <div class="aw2-right">
+                            <h4 class="aw2-title">Best Luxury Villa Development</h4>
+                            <span class="aw2-org">South India Property Awards</span>
+                            <p class="aw2-desc">Recognized as the best luxury villa developer for creating premium residential spaces with world-class amenities.</p>
+                            <div class="aw2-meta">
+                                <span class="aw2-meta-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+                                <span class="aw2-meta-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Image -->
+                <div class="awards-v2-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Luxury Real Estate Quality Awards">
+                    <div class="awards-v2-img-fade"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. TESTIMONIALS SECTION -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="text-center mb-50 reveal">
+                <div class="section-badge">TESTIMONIALS</div>
+                <h2 class="section-title">What Our <span class="text-yellow">Clients Say</span></h2>
+            </div>
+            
+            <div class="testimonial-slider-wrap reveal-delay">
+                <div class="testimonial-slider" id="testimonialSlider">
+                    <div class="testi-card">
+                        <div class="testi-icon">"</div>
+                        <p class="testi-text">"Winstone delivered our Palm Jumeirah villa with absolute perfection. From the premium finishes to the custom smart integrations, the execution was flawless."</p>
+                        <div class="testi-author">
+                            <h4>Client A</h4>
+                            <span>Palm Jumeirah Resident</span>
+                        </div>
+                    </div>
+                    <div class="testi-card">
+                        <div class="testi-icon">"</div>
+                        <p class="testi-text">"An exceptional developer that truly understands the UAE luxury market. The handover of our Downtown apartment was smooth and ahead of schedule."</p>
+                        <div class="testi-author">
+                            <h4>Client B</h4>
+                            <span>International Investor</span>
+                        </div>
+                    </div>
+                    <div class="testi-card">
+                        <div class="testi-icon">"</div>
+                        <p class="testi-text">"Their commitment to sustainable design in the Yas Island project won us over. Winstone creates properties that are not just beautiful, but future-proof."</p>
+                        <div class="testi-author">
+                            <h4>Client C</h4>
+                            <span>Yas Island </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn" id="prevTesti">←</button>
+                    <button class="slider-btn" id="nextTesti">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. CONTACT SECTION -->
+    <section class="contact-v2" id="contact">
+        <div class="container">
+
+            <!-- Header -->
+            <div class="contact-v2-header text-center reveal">
+                <div class="section-badge">CONTACT</div>
+                <h2 class="section-title">Let's Build <span class="text-yellow">Something Exceptional</span></h2>
+                <div class="section-divider">
+                    <div class="line"></div>
+                    <div class="dot"></div>
+                    <div class="line"></div>
+                </div>
+                <p class="section-desc mt-30" style="max-width:620px; margin: 20px auto 0;">
+                    Ready to create your dream property? Connect with Winstone Projects to discuss luxury
+                    real estate development, investments, or partnership opportunities.
+                </p>
+            </div>
+
+            <!-- Two-column body -->
+            <div class="contact-v2-grid reveal">
+
+                <!-- LEFT: Form Card -->
+                <div class="contact-form-card">
+                    <h3 class="contact-form-title">Send a Message</h3>
+                    <form class="contact-v2-form" id="contactForm">
+                        <div class="cv2-row-2">
+                            <input type="text" placeholder="Your Name" required id="cv2Name">
+                            <input type="email" placeholder="Your Email" required id="cv2Email">
+                        </div>
+                        <div class="cv2-row-1">
+                            <input type="text" placeholder="Company/Organization" id="cv2Company">
+                        </div>
+                        <div class="cv2-row-1">
+                            <textarea placeholder="Tell us about your project or inquiry..." rows="5" required id="cv2Message"></textarea>
+                        </div>
+                        <button type="submit" class="cv2-submit-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            Send Message
+                        </button>
+                        <p class="cv2-or">Or send via</p>
+                        <div class="cv2-quick-btns">
+                            <a href="https://wa.me/971504158382" target="_blank" class="cv2-quick-btn cv2-wa">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                                WhatsApp
+                            </a>
+                            <a href="mailto:Support@winstoneprojects.com" class="cv2-quick-btn cv2-mail">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                Email Us
+                            </a>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- RIGHT: Info -->
+                <div class="contact-info-col">
+                    <h3 class="contact-info-title">Get in Touch</h3>
+
+                    <div class="contact-info-list">
+                        <div class="ci-item">
+                            <div class="ci-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            </div>
+                            <div class="ci-text">
+                                <span class="ci-label">Email</span>
+                                <a href="mailto:Support@winstoneprojects.com" class="ci-value">Support@winstoneprojects.com</a>
+                            </div>
+                        </div>
+                        <div class="ci-item">
+                            <div class="ci-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 7.29 7.29l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            </div>
+                            <div class="ci-text">
+                                <span class="ci-label">Phone</span>
+                                <a href="tel:+971504158382" class="ci-value">+971 504158382</a>
+                            </div>
+                        </div>
+                        <div class="ci-item">
+                            <div class="ci-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            </div>
+                            <div class="ci-text">
+                                <span class="ci-label">Location</span>
+                                <span class="ci-value">Al Wasl building, Sheikh Zayed Road,<br>Near Dubai Mall Metro station, Dubai UAE</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social -->
+                    <div class="contact-social-block">
+                        <h4 class="contact-social-label">Connect on Social</h4>
+                        <div class="contact-social-icons">
+                            <a href="#" class="cs-icon" aria-label="LinkedIn">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+                            </a>
+                            <a href="#" class="cs-icon" aria-label="Twitter/X">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </a>
+                            <a href="https://wa.me/971504158382" target="_blank" class="cs-icon" aria-label="WhatsApp">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                            </a>
+                            <a href="#" class="cs-icon" aria-label="Instagram">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            </a>
+                            <a href="#" class="cs-icon" aria-label="YouTube">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0C.488 3.45.029 5.804 0 12c.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0C23.512 20.55 23.971 18.196 24 12c-.029-6.185-.484-8.549-4.385-8.816zM9 16V8l8 3.993L9 16z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quote band -->
+                    <div class="contact-quote-band">
+                        <div class="cq-bar"></div>
+                        <p class="cq-text">"Homes should be more than just spaces to live in; they should be sanctuaries that inspire, comfort and reflect the people who inhabit them."</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-logo mb-20">
+                        <img src="https://www.winstoneprojects.com/winstonelogo.jpg" alt="Winstone Logo" style="width: 36px; height: auto; border-radius: 8px;">
+                        <span style="font-weight: 800; font-size: 18px; margin-left:10px;">WINSTONE<span class="text-yellow">.</span></span>
+                    </div>
+                    <p class="footer-desc">Premium real estate developers delivering architectural excellence across Dubai and the UAE.</p>
+                    
+                    <div class="footer-contact-box">
+                        <p><strong>Head Office:</strong></p>
+                        <p>Al Wasl Building, Sheikh Zayed Rd</p>
+                        <p>Dubai, United Arab Emirates</p>
+                    </div>
+                </div>
+                
+                <div class="footer-links-group">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Portfolio</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4>Connect</h4>
+                    <div class="social-flex">
+                        <a href="#" class="social-icon">LinkedIn</a>
+                        <a href="#" class="social-icon">Instagram</a>
+                        <a href="#" class="social-icon">Twitter</a>
+                        <a href="#" class="social-icon">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Winstone Projects UAE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
