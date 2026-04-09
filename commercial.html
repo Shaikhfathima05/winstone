@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial Spaces - Winstone Projects</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@100..900&family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="p-page-wrapper">
+
+    <a href="index.html#projects" class="back-project-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        Back to All Projects
+    </a>
+
+    <div class="container">
+        <!-- HEADER -->
+        <header class="p-header-v3 reveal">
+            <div class="p-badge-v3">PRIME BUSINESS HUBS</div>
+            <div class="p-title-area-v3">
+                <div class="gold-line"></div>
+                <h1 class="p-title-v3">COMMERCIAL</h1>
+                <div class="gold-line"></div>
+            </div>
+            <p class="p-intro-v3">
+                Premium commercial spaces and mixed-use developments designed to foster business growth and provide state-of-the-art retail and office environments.
+            </p>
+        </header>
+
+        <!-- PROJECTS GRID -->
+        <div class="p-grid-container">
+            
+            <!-- Office Spaces -->
+            <div class="p-card-v3 reveal">
+                <div class="p-card-img-v3">
+                    <img src="commercial_spaces.png" alt="Office Spaces">
+                </div>
+                <div class="p-card-content-v3">
+                    <span class="p-card-tag-v3">Grade-A Offices</span>
+                    <h2 class="p-card-title-v3">MODERN OFFICE SPACES</h2>
+                    <p class="p-card-desc-v3">
+                        Centrally located corporate headquarters and flexible co-working spaces equipped with high-speed connectivity and modern business lounges.
+                    </p>
+                    <div class="p-meta-grid-v3">
+                        <div class="p-meta-box-v3"><span>Location</span><p>Dubai, UAE</p></div>
+                        <div class="p-meta-box-v3"><span>Year</span><p>2024</p></div>
+                        <div class="p-meta-box-v3"><span>Price</span><p>AED 1.5M+</p></div>
+                    </div>
+                    <div class="p-highlights-v3">
+                        <div class="p-pill-v3"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>Prime Location</div>
+                        <div class="p-pill-v3"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>High-Speed NW</div>
+                        <div class="p-pill-v3"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>Modern Design</div>
+                    </div>
+                    <a href="#" class="p-btn-v3">
+                        Explore Project 
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Retail Outlets -->
+            <div class="p-card-v3 reveal">
+                <div class="p-card-img-v3">
+                    <img src="commercial_office_retail.png" alt="Retail Outlets">
+                </div>
+                <div class="p-card-content-v3">
+                    <span class="p-card-tag-v3">High-Street Retail</span>
+                    <h2 class="p-card-title-v3">PREMIUM RETAIL</h2>
+                    <p class="p-card-desc-v3">
+                        Strategic retail placements in high-footfall areas featuring luxury finishes and flexible storefront designs for global brands.
+                    </p>
+                    <div class="p-meta-grid-v3">
+                        <div class="p-meta-box-v3"><span>Location</span><p>Dubai, UAE</p></div>
+                        <div class="p-meta-box-v3"><span>Year</span><p>2025</p></div>
+                        <div class="p-meta-box-v3"><span>Status</span><p>Available</p></div>
+                    </div>
+                    <div class="p-highlights-v3">
+                        <div class="p-pill-v3"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>High Footfall</div>
+                        <div class="p-pill-v3"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>Luxury Finish</div>
+                        <div class="p-pill-v3"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>Business Hub</div>
+                    </div>
+                    <a href="#" class="p-btn-v3">
+                        Explore Project 
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Scripts for animations -->
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(50px)';
+            el.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
