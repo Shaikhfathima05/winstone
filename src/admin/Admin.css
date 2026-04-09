@@ -1,0 +1,234 @@
+/* Admin Dashboard Styles - Dark Luxury Theme */
+:root {
+  --admin-bg: #050505;
+  --sidebar-bg: #0a0a0a;
+  --card-bg: #111111;
+  --accent-gold: #d4af37;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --border-color: rgba(255, 255, 255, 0.08);
+  --sidebar-width: 260px;
+}
+
+.admin-wrapper {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--admin-bg);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Sidebar */
+.admin-sidebar {
+  width: var(--sidebar-width);
+  background-color: var(--sidebar-bg);
+  border-right: 1px solid var(--border-color);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+}
+
+.admin-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 50px;
+  padding: 0 10px;
+}
+
+.admin-logo img {
+  width: 32px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.admin-logo span {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.nav-item:hover, .nav-item.active {
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--accent-gold);
+}
+
+.logout-btn {
+  margin-top: auto;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  color: #ff4444;
+  font-size: 14px;
+}
+
+/* Main Content */
+.admin-main {
+  flex: 1;
+  margin-left: var(--sidebar-width);
+  padding: 40px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.page-header h1 {
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Stats Cards */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.stat-card span {
+  font-size: 13px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stat-card h2 {
+  font-size: 32px;
+  margin-top: 10px;
+  color: var(--accent-gold);
+}
+
+/* Tables & Forms */
+.admin-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th {
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.data-table td {
+  padding: 20px 15px;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 14px;
+}
+
+/* Forms */
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.form-group input, .form-group textarea, .form-group select {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: var(--accent-gold);
+}
+
+.btn-primary {
+  background: var(--accent-gold);
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: 1px solid var(--border-color);
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Login Page */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--admin-bg);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  background: var(--card-bg);
+  padding: 40px;
+  border-radius: 24px;
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
