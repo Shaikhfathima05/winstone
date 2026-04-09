@@ -121,6 +121,15 @@ body {
     border-color: var(--text-white);
 }
 
+/* Base Link Reset for Cards */
+.comp-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
 /* Navigation */
 .navbar {
     position: fixed;
@@ -548,7 +557,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* Our Companies */
+/* Our Companies Section Custom Style */
 .companies-section-new {
     padding: 100px 0;
     background-color: #030303;
@@ -562,77 +571,112 @@ body {
 }
 
 .comp-card {
+    position: relative;
+    height: 420px;
     background: #0a0f18;
     border-radius: 16px;
     overflow: hidden;
-    border: 1px solid rgba(255,255,255,0.05);
-    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .comp-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+    border-color: var(--accent-yellow);
 }
 
 .comp-img-top {
-    height: 240px;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
 .comp-img-top img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.comp-card:hover .comp-img-top img {
+    transform: scale(1.1);
 }
 
 .comp-img-top::after {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, transparent, rgba(10,15,24,1));
+    background: linear-gradient(to top, 
+        rgba(5, 5, 5, 1) 0%, 
+        rgba(5, 5, 5, 0.8) 30%, 
+        rgba(5, 5, 5, 0.4) 60%, 
+        rgba(5, 5, 5, 0.2) 100%);
+    z-index: 1;
 }
 
 .comp-icon {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 2;
-    background: rgba(0,0,0,0.5);
-    border-radius: 8px;
-    width: 44px;
-    height: 44px;
+    top: 24px;
+    right: 24px;
+    z-index: 3;
+    background: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(4px);
-    border: 1px solid rgba(244,184,21,0.3);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(244,184,21,0.4);
+    transition: all 0.3s ease;
+}
+
+.comp-card:hover .comp-icon {
+    background: var(--accent-yellow);
+    color: #000;
+}
+
+.comp-card:hover .comp-icon svg {
+    stroke: #000;
 }
 
 .comp-content {
-    padding: 0 30px 40px 30px;
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 30px;
     z-index: 2;
+    transition: transform 0.4s ease;
 }
 
 .comp-pill {
     font-size: 11px;
-    font-weight: 700;
+    font-weight: 800;
     color: var(--accent-yellow);
-    letter-spacing: 1px;
-    margin-bottom: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .comp-content h3 {
-    font-size: 24px;
+    font-size: 26px;
     font-family: var(--font-serif);
     margin-bottom: 16px;
     line-height: 1.2;
+    color: var(--text-white);
 }
 
 .comp-content p {
     color: var(--text-gray);
     font-size: 14px;
     line-height: 1.6;
+    margin: 0;
+    opacity: 0.9;
 }
 
 /* New Projects Section - Exact Replica */
